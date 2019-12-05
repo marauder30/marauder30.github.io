@@ -1,4 +1,5 @@
 * {
+    box-sizing: border-box;
     padding: 10px;
     margin: 0 40px;
     text-align: center;
@@ -18,14 +19,24 @@
 h1 {
     width: 250px;
     padding: 20px 10px;
-    background-color: teal; 
+    background-color: turquoise; 
     color: white;
 }
 
 h2 {
-    color: teal;
+    color: turquoise;
     text-align: left;
     border-bottom: gray solid 2px;
+}
+
+h3 {
+    font-size: 10px;
+    font-weight: 100;
+    color: white;
+    border-top: turquoise solid 5px;
+    background-color: gray;
+    padding: 20px 500px 0;
+    text-align: center;
 }
 
 header {
@@ -82,4 +93,11 @@ div {
 
 .box-set{
     text: red;
+}
+
+label {
+    text-align: left;
+    font-size: 24px;
+    fill: auto;
+
 }
