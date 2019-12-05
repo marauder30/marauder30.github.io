@@ -1,0 +1,56 @@
+* {
+    padding: 0 20px;
+    box-sizing: border-box;
+    text-align: center;
+    width: 250px;
+    size: 960px;
+}
+
+.clearfix::after {
+    clear: both;
+    content: "";
+    display: block;
+}
+
+h1 {
+    padding: 20px 10px;
+    background-color: teal; 
+    color: white;
+}
+
+h2 {
+    color: teal;
+}
+
+header {
+    border-bottom: 2px solid black;
+    size: 100%;
+    fill: auto;
+    display: inline;
+}
+
+nav {
+    float: right;
+    font-size: 20px;
+}
+
+#middle {
+    border-left: 1px solid gray;
+    border-right: 1px solid gray;
+}
+
+li {
+    display: inline;
+    list-style-type: none;
+}
+
+.photoWrapper {
+    position: relative;
+}
+
+h3 {
+    position: absolute;
+    padding-bottom: 5px;
+    text-align: center;
+}
+
