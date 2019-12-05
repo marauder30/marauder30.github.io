@@ -79,3 +79,7 @@ img {
 div {
     border-bottom: gray solid 2px;
 }
+
+.box-set{
+    text: red;
+}
