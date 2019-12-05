@@ -30,6 +30,16 @@ h2 {
 }
 
 h3 {
+    background: turquoise;
+    color: white;
+    width: 300px;
+    font-weight: 100;
+    border-top: 200px;
+
+
+}
+
+h4 {
     font-size: 10px;
     font-weight: 100;
     color: white;
@@ -74,7 +84,7 @@ li {
 }
 
 .photoWrapper {
-    position: relative;
+    position: absolute;
 }
 
 h3 {
@@ -91,13 +101,18 @@ div {
     border-bottom: gray solid 2px;
 }
 
-.box-set{
+.box-set {
     text: red;
+}
+
+.box {
+    position: relative;
+    float: left;
 }
 
 label {
     text-align: left;
     font-size: 24px;
     fill: auto;
-
+    width: auto;
 }
