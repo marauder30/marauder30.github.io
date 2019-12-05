@@ -1,9 +1,7 @@
 * {
-    padding: 0 20px;
-    box-sizing: border-box;
+    padding: 10px;
+    margin: 0 40px;
     text-align: center;
-    width: 250px;
-    size: 960px;
 }
 
 .clearfix::after {
@@ -12,7 +10,13 @@
     display: block;
 }
 
+.center {
+    border-right: gray solid 1px;
+    border-left: gray solid 1px;
+}
+
 h1 {
+    width: 250px;
     padding: 20px 10px;
     background-color: teal; 
     color: white;
@@ -20,21 +24,35 @@ h1 {
 
 h2 {
     color: teal;
+    text-align: left;
+    border-bottom: gray solid 2px;
 }
 
 header {
-    border-bottom: 2px solid black;
-    size: 100%;
+    border-bottom: 1px solid black;
     fill: auto;
     display: inline;
 }
 
-nav {
+ul {
     float: right;
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
     font-size: 20px;
+    overflow: hidden;
 }
 
-#middle {
+li a {
+    display: block inline;
+    color: black;
+    font-style: Times;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+}
+
+#center {
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
@@ -54,3 +72,10 @@ h3 {
     text-align: center;
 }
 
+img {
+    float: left;
+}
+
+div {
+    border-bottom: gray solid 2px;
+}
