@@ -1,7 +1,6 @@
 * {
     box-sizing: border-box;
     padding: 10px;
-    margin: 0 40px;
     text-align: center;
 }
 
@@ -14,6 +13,7 @@
 .center {
     border-right: gray solid 1px;
     border-left: gray solid 1px;
+    padding: 0 40px;
 }
 
 h1 {
@@ -50,7 +50,6 @@ h4 {
 }
 
 header {
-    border-bottom: 1px solid black;
     fill: auto;
     display: inline;
 }
@@ -74,6 +73,7 @@ li a {
 }
 
 #center {
+    padding: 0 400px;
     border-left: 1px solid gray;
     border-right: 1px solid gray;
 }
@@ -124,10 +124,9 @@ img {
     fill: auto;
 }
 
-col.1 {
-    float: left;
+.topnav li a:hover {
+    background: black;
+    color: white;
 }
 
-col.2 {
-    float: right;
-}
+
