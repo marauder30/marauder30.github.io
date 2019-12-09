@@ -127,7 +127,7 @@ label {
     fill: auto;
     width: auto;
 }
-/*
+
 img {
     display: block;
     float: left;
@@ -139,7 +139,6 @@ img {
     position: relative;
 }
 
-*/
 a:hover {
     background: black;
     color: white;
