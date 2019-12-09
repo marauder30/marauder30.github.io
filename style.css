@@ -173,11 +173,12 @@ a:hover {
 
 .wrapper h3 {
     position: absolute;
-    width: 100%;
+    width: 235px;
     padding: 15px;
     margin-bottom: 0;
     border-bottom: 20px;
     bottom: 20px;
+    left: 20px;
 }
 
 .auth-image {
